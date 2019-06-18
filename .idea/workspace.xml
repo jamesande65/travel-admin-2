@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f72edd3-ec31-4b0d-9afd-0c4583f4941a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="6f72edd3-ec31-4b0d-9afd-0c4583f4941a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +91,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -148,12 +146,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560781718776</updated>
       <workItem from="1560781720149" duration="2759000" />
-      <workItem from="1560848504275" duration="5581000" />
+      <workItem from="1560848504275" duration="6210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8340000" />
+    <option name="totallyTimeSpent" value="8969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -165,18 +163,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="3" weight="0.32975295" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" visible="true" weight="0.32975295" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32975295" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32975295" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32975295" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
