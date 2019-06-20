@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{{> head/head}}
+	</head>
+	<body class="page">
+		{{> svg-area/svg-area}}
+		<div class="page__wrapper">
+			<span class="title">Some category name</span>
+			<div class="top-block">
+                <div class="top-block__add">
+                    <span>Sites</span>
+                    <button class="btn btn-grey">Add new</button>
+                </div>
+                <div class="top-block__search">
+                    <form action="#" method="get">
+                        <input type="text" placeholder="Search all sites">
+                    </form>
+                </div>
+            </div>
+            <div class="cards__wrapper">
+                <div class="cards__list js-sorted connected">
+                    <div class="cards__item" data-num="1">
+                        <span class="number">1</span>
+                        <span class="move pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="2">
+                        <span class="number">2</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="3">
+                        <span class="number">3</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item inactive" data-num="4">
+                        <span class="number">4</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="5">
+                        <span class="number">5</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="6">
+                        <span class="number">6</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="7">
+                        <span class="number">7</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item inactive" data-num="8">
+                        <span class="number">8</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="9">
+                        <span class="number">9</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="10">
+                        <span class="number">10</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="cards__list js-sorted connected">
+                    <div class="cards__item" data-num="1">
+                        <span class="number">1</span>
+                        <span class="move pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="2">
+                        <span class="number">2</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="3">
+                        <span class="number">3</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item inactive" data-num="4">
+                        <span class="number">4</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="5">
+                        <span class="number">5</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="6">
+                        <span class="number">6</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="7">
+                        <span class="number">7</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item inactive" data-num="8">
+                        <span class="number">8</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="9">
+                        <span class="number">9</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="cards__item" data-num="10">
+                        <span class="number">10</span>
+                        <span class="pointer js-move-card">
+                            <svg class="icon icon--move">
+                                <use xlink:href="#move"></use>
+                            </svg>
+                        </span>
+                        <div class="cards__image"><img src="images/baloon.png" alt="Category icon"></div>
+                        <span class="cards__title">Hotel booking sites</span>
+                        <a href="#">
+                            <svg class="icon icon--edit">
+                                <use xlink:href="#edit"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="cards__options">
+                    <div class="cards__options-title">Category Information</div>
+                    <form action="#" method="get">
+                        <div class="form-group">
+                            <span>Title</span>
+                            <input type="text" placeholder="Here should be name of category">
+                        </div>
+                        <div class="form-group">
+                            <span>Slug</span>
+                            <input type="text" placeholder="Here should be category slug">
+                        </div>
+                        <div class="form-group">
+                            <span>Image</span>
+                            <div class="upload-block">
+                                <img id="upload-img" src="#" alt="Your image" />
+                                <input type="file" name="file" id="fileUpload" class="inputfile" />
+                                <label for="fileUpload" class="btn btn-grey grey-text">Choose a file</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span>Settings</span>
+                            <div>
+                                <div class="form-group">
+                                    <span>Category position</span>
+                                    <input type="text" id="category-position" value="1">
+                                </div>
+                                <div class="form-group">
+                                    <span>Category row</span>
+                                    <div class="radio-block">
+                                        <div class="radio-group">
+                                            <input type="radio" id="radio1" name="category-row" value="1">
+                                            <label for="radio1"></label>
+                                            <span>1</span>
+                                        </div>
+                                        <div class="radio-group">
+                                            <input type="radio" id="radio2" name="category-row" value="2" checked>
+                                            <label for="radio2"></label>
+                                            <span>2</span>
+                                        </div>
+                                        <div class="radio-group">
+                                            <input type="radio" id="radio3" name="category-row" value="3">
+                                            <label for="radio3"></label>
+                                            <span>3</span>
+                                        </div>
+                                        <div class="radio-group">
+                                            <input type="radio" id="radio4" name="category-row" value="4">
+                                            <label for="radio4"></label>
+                                            <span>4</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span>Site position separator</span>
+                                    <input type="text" value="22">
+                                </div>
+                                <div class="form-group">
+                                    <span>Category height in px</span>
+                                    <input type="text" value="300">
+                                </div>
+                                <div class="form-group">
+                                    <span>Category mobile height in px</span>
+                                    <input type="text" value="250">
+                                </div>
+                                <div class="form-group">
+                                    <span>Inactive category</span>
+                                    <div class="checkbox-group">
+                                        <input type="checkbox" id="category-activity" checked>
+                                        <label for="category-activity"></label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span>Hide from home page</span>
+                                    <div class="checkbox-group">
+                                        <input type="checkbox" id="homepage-hide">
+                                        <label for="homepage-hide"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span>Description</span>
+                            <textarea placeholder="Select Files" rows="7"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="bottom-block">
+                <button class="btn btn-blue">Update</button>
+            </div>
+		</div>
+
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+	</body>
+</html>
